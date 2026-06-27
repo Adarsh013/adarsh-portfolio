@@ -10,7 +10,7 @@ const HeaderSocials = () => {
             </a>
 
             <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <SiHashnode />
+                    <SiHashnode />
             </a>
 
             <a href='https://dev.to/gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
