@@ -3,162 +3,122 @@ import React from 'react'
 const Shapes = () => {
     return (
         <div className='shapes'>
-            <svg
-                width="27"
-                height="29"
-                class="shape s1"
-                xmlns="http://www.w3.org/2000/svg"
-            >
+
+            {/* s1 — 4-point star, gold */}
+            <svg width="28" height="28" className="shape s1" xmlns="http://www.w3.org/2000/svg">
                 <path
-                    d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z"
-                    fill="#FFD15C"
-                    fill-rule="evenodd"
+                    d="M14 0 L17 10.5 L28 14 L17 17.5 L14 28 L11 17.5 L0 14 L11 10.5 Z"
+                    fill="#FFD166"
+                    fillRule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="26"
-                height="26"
-                class="shape s2"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z"
-                    stroke="#FF4C60"
-                    stroke-width="3"
+            {/* s2 — orbit ring, coral */}
+            <svg width="46" height="24" className="shape s2" xmlns="http://www.w3.org/2000/svg">
+                <ellipse
+                    cx="23" cy="12" rx="21" ry="10"
+                    stroke="#FF6B6B"
+                    strokeWidth="2"
                     fill="none"
-                    fill-rule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="30"
-                height="25"
-                class="shape s3"
-                xmlns="http://www.w3.org/2000/svg"
-            >
+            {/* s3 — crescent moon, violet */}
+            <svg width="22" height="30" className="shape s3" xmlns="http://www.w3.org/2000/svg">
                 <path
-                    d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z"
-                    fill="#44D7B6"
-                    fill-rule="evenodd"
+                    d="M14 2 C6 2 0 8 0 16 C0 24 6 30 14 30 C10 26 7 22 7 16 C7 10 10 6 14 2 Z"
+                    fill="#A78BFA"
+                    fillRule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="15"
-                height="23"
-                class="shape s4"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <rect
-                    transform="rotate(30 9.86603 10.13397)"
-                    x="7"
-                    width="3"
-                    height="25"
-                    rx="1.5"
-                    fill="#FFD15C"
-                    fill-rule="evenodd"
-                />
-            </svg>
-
-            <svg
-                width="15"
-                height="23"
-                class="shape s5"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <rect
-                    transform="rotate(30 9.86603 10.13397)"
-                    x="7"
-                    width="3"
-                    height="25"
-                    rx="1.5"
-                    fill="#6C6CE5"
-                    fill-rule="evenodd"
-                />
-            </svg>
-
-            <svg
-                width="49"
-                height="17"
-                class="shape s6"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <g fill="#FF4C60" fill-rule="evenodd">
-                    <path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
-                    <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
-                </g>
-            </svg>
-
-            <svg
-                width="26"
-                height="26"
-                class="shape s7"
-                xmlns="http://www.w3.org/2000/svg"
-            >
+            {/* s4 — 6-point star outline, sky blue */}
+            <svg width="24" height="24" className="shape s4" xmlns="http://www.w3.org/2000/svg">
                 <path
-                    d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z"
-                    stroke="#FFD15C"
-                    stroke-width="3"
+                    d="M12 0 L13.5 8 L21 4 L16 10 L24 12 L16 14 L21 20 L13.5 16 L12 24 L10.5 16 L3 20 L8 14 L0 12 L8 10 L3 4 L10.5 8 Z"
+                    stroke="#48CAE4"
+                    strokeWidth="1.5"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="19"
-                height="21"
-                class="shape s8"
-                xmlns="http://www.w3.org/2000/svg"
-            >
+            {/* s5 — dot triangle cluster, gold */}
+            <svg width="22" height="18" className="shape s5" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="3" cy="15" r="3" fill="#FFD166" />
+                <circle cx="19" cy="15" r="3" fill="#FFD166" />
+                <circle cx="11" cy="3" r="3" fill="#FFD166" />
+            </svg>
+
+            {/* s6 — ringed planet, coral */}
+            <svg width="56" height="36" className="shape s6" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="28" cy="18" r="10" fill="none" stroke="#FF6B6B" strokeWidth="2" />
+                <ellipse cx="28" cy="18" rx="26" ry="7" fill="none" stroke="#FF6B6B" strokeWidth="1.5" opacity="0.55" />
+            </svg>
+
+            {/* s7 — open arc hook, sky blue */}
+            <svg width="24" height="24" className="shape s7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M2 22 C2 10 9 1 22 1"
+                    stroke="#48CAE4"
+                    strokeWidth="2.5"
+                    fill="none"
+                    strokeLinecap="round"
+                />
+            </svg>
+
+            {/* s8 — diamond outline, violet */}
+            <svg width="28" height="28" className="shape s8" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M14 1 L27 14 L14 27 L1 14 Z"
+                    stroke="#A78BFA"
+                    strokeWidth="2"
+                    fill="none"
+                    fillRule="evenodd"
+                />
+            </svg>
+
+            {/* s9 — lightning bolt, gold */}
+            <svg width="18" height="28" className="shape s9" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 0 L4 14 L9 14 L2 28 L16 11 L10 11 Z"
+                    fill="#FFD166"
+                    fillRule="evenodd"
+                />
+            </svg>
+
+            {/* s10 — hexagon outline, violet */}
+            <svg width="32" height="36" className="shape s10" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16 1 L31 9.66 L31 26.98 L16 35.64 L1 26.98 L1 9.66 Z"
+                    stroke="#A78BFA"
+                    strokeWidth="2"
+                    fill="none"
+                    fillRule="evenodd"
+                />
+            </svg>
+
+            {/* s11 — tilted dash, sky blue */}
+            <svg width="32" height="16" className="shape s11" xmlns="http://www.w3.org/2000/svg">
                 <rect
-                    transform="rotate(-40 6.25252 10.12626)"
-                    x="7"
-                    width="3"
-                    height="25"
+                    transform="rotate(-30 16 8)"
+                    x="2" y="6"
+                    width="28" height="3"
                     rx="1.5"
-                    fill="#6C6CE5"
-                    fill-rule="evenodd"
+                    fill="#48CAE4"
+                    fillRule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="30"
-                height="25"
-                class="shape s9"
-                xmlns="http://www.w3.org/2000/svg"
-            >
+            {/* s12 — plus cross, coral */}
+            <svg width="20" height="20" className="shape s12" xmlns="http://www.w3.org/2000/svg">
                 <path
-                    d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z"
-                    fill="#6C6CE5"
-                    fill-rule="evenodd"
+                    d="M8 0 L8 6 L14 6 L14 8 L8 8 L8 14 L6 14 L6 8 L0 8 L0 6 L6 6 L6 0 Z"
+                    fill="#FF6B6B"
+                    fillRule="evenodd"
                 />
             </svg>
 
-            <svg
-                width="47"
-                height="29"
-                class="shape s10"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <g fill="#44D7B6" fill-rule="evenodd">
-                    <path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
-                    <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
-                </g>
-            </svg>
-
-            <svg
-                width="33"
-                height="20"
-                class="shape s11"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z"
-                    fill="#FFD15C"
-                    fill-rule="evenodd"
-                />
-            </svg>
         </div>
     )
 }

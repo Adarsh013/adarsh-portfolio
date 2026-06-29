@@ -12,9 +12,12 @@
   z-index: 10;
 }
 
-.home__img {
-  margin-bottom: 1.5rem;
+.home__img { margin-bottom: 1.5rem; 
   width: 200px;
+ }
+
+.home__img:hover {
+  transform: translateY(-5px);
 }
 
 .home__name {

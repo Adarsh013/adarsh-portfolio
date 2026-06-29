@@ -1,4 +1,4 @@
-const WorkExperience = [
+export const WorkExperienceData = [
     {
         id: 1,
         title: "Software Engineer",
@@ -9,58 +9,39 @@ const WorkExperience = [
             "Communicate with multi-disciplinary teams of engineers, team leads, and QA Engineers on a daily basis",
         ],
     },
+   
+    
+];
+
+export const CertificationsData = [
+    {
+        id: 1,
+        title: "AWS Certified Developer – Associate",
+        issuer: "Amazon Web Services",
+        date: "March 2023",
+        credentialId: "AWS-DEV-2023",
+    },
     {
         id: 2,
-        title: "Junior Software Developer",
-        company: "Entrostat",
-        yearsActive: "May 2017 - December 2021",
-        information: [
-            "Improved and optimized the company's website for a seamless customer experience",
-            "Created, communicated, and managed project plans & project timelines",
-            "Worked to continually meet the expectation of our clients",
-        ],
+        title: "Meta Front-End Developer",
+        issuer: "Meta (Coursera)",
+        date: "November 2022",
+        credentialId: "META-FE-2022",
     },
     {
         id: 3,
-        title: "Junior Software Developer",
-        company: "Empire State",
-        yearsActive: "Feburary 2016 - April 2017",
-        information: [
-            "Planned, developed, tested, deployed, and maintained web applications and mobile applications",
-            "Worked well independently and on a team to solve problems."
-        ],
+        title: "JavaScript Algorithms & Data Structures",
+        issuer: "freeCodeCamp",
+        date: "July 2022",
+        credentialId: "FCC-JS-2022",
     },
     {
         id: 4,
-        title: "Software Development Intern",
-        company: "The Digital Academy",
-        yearsActive: "Novembe 2015 - January 2016",
-        information: [
-            "Served as a dedicated and supportive Intern in a fast-paced environment",
-            "Worked to solve complex problems using the latest in Mobile and Web Technologies.",
-        ],
-    },
-    {
-        id: 5,
-        title: "IT Support Assistant",
-        company: "Varsity College",
-        yearsActive: "February 2015 - May 2015",
-        information: [
-            "Worked to support the senior support staff with day-to-day tasks.",
-            "Assisted with the evaluation and troubleshooting of hardware and software issues.",
-            "Maintaining computer Inventory & surplus equipment."
-        ],
-    },
-    {
-        id: 6,
-        title: "Student Ambassador",
-        company: "Varsity College",
-        yearsActive: "December 2014 - February 2015",
-        information: [
-            "Monitored registration for all prospective student",
-            "Assisted parents and prospective student with necessary registration details",
-        ],
+        title: "React – The Complete Guide",
+        issuer: "Udemy / Maximilian Schwarzmüller",
+        date: "January 2022",
+        credentialId: "UDEMY-REACT-2022",
     },
 ];
 
-export default WorkExperience;
+export default WorkExperienceData;
