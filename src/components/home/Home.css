@@ -30,12 +30,14 @@
   display: flex;
   column-gap: 1.75rem;
   margin: 1.5rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__social-link {
   color: var(--title-color);
-  font-size: 1.3rem;
-  transition: 0.3s;
+  font-size: 1.6rem;
+  transition: 0.3sall 0.3s ease;
 }
 
 .home__social-link:hover {
@@ -160,4 +162,38 @@
 .s11 {
   bottom: 10%;
   right: 2%;
+}
+
+
+/* Icon app Color as per Original app */
+
+/* Default icon color */
+.home__social-link {
+  color: var(--title-color);
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+
+/* GitHub */
+.home__social-link:nth-child(1):hover {
+  color: #8a7878;
+  transform: translateY(-3px);
+}
+
+/* LinkedIn */
+.home__social-link:nth-child(2):hover {
+  color: #0A66C2;
+  transform: translateY(-3px);
+}
+
+/* Twitter/X */
+.home__social-link:nth-child(3):hover {
+  color: #1DA1F2;
+  transform: translateY(-3px);
+}
+
+/* LeetCode */
+.home__social-link:nth-child(4):hover {
+  color: #FFA116;
+  transform: translateY(-3px);
 }

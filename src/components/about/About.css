@@ -97,11 +97,12 @@
 }
 
 .about__boxes {
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1.875rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.875rem;
   margin-top: 4.35rem;
+  flex-wrap: wrap;
 }
-
 .about__box {
   display: flex;
   column-gap: 1.5rem;

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import Logo from "../../assets/logo.svg";
-import LightLogo from "../../assets/light-logo.svg";
+import Logo from "../../assets/myNameLogo3.png";
+import LightLogo from "../../assets/myNameLogo3.png";
+
 
 import {
     RiHome2Line,
@@ -24,7 +25,10 @@ const Sidebar = (props) => {
         <>
             <aside className={toggle ? 'aside show-menu' : 'aside'}>
                 <a href="#home" className="nav__logo">
-                    <img src={props.theme === 'light' ? LightLogo : Logo} alt="logo" />
+                    <img src={props.theme === 'light' ? LightLogo : Logo} alt="logo" 
+                    style={{ width: "100%", border: "2px solid black" }}
+                    />
+                    
                 </a>
 
                 <nav className="nav">
@@ -43,7 +47,7 @@ const Sidebar = (props) => {
                             </li>
 
                             <li className="nav__item">
-                                <a href="#services" className="nav__link">
+                                <a href="#skills" className="nav__link">
                                     <RiFileList3Line />
                                 </a>
                             </li>
@@ -57,12 +61,6 @@ const Sidebar = (props) => {
                             <li className="nav__item">
                                 <a href="#portfolio" className="nav__link">
                                     <RiStackLine />
-                                </a>
-                            </li>
-
-                            <li className="nav__item">
-                                <a href="#blog" className="nav__link">
-                                    <RiDraftLine />
                                 </a>
                             </li>
 

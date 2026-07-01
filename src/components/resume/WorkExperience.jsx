@@ -1,47 +1,15 @@
 export const WorkExperienceData = [
     {
         id: 1,
-        title: "Software Engineer",
-        company: "Kurtosys",
-        yearsActive: "January 2022 - Present",
+        title: "Web Development Intern",
+        company: "Bharat Intern",
+        yearsActive: "September 2023 - October 2023",
         information: [
-            "Write modern, performant, maintainable code for a diverse array of internal projects",
-            "Communicate with multi-disciplinary teams of engineers, team leads, and QA Engineers on a daily basis",
+            "Collaborated with a dynamic team at Bharat Intern to enhance my skills in web development. Applied programming languages such as HTML, CSS, and JavaScript to deliver responsive and user-friendly websites. Learned and adapted to industry best practices in a virtual internship setting, fostering both individual and collaborative growth."
         ],
     },
    
     
-];
-
-export const CertificationsData = [
-    {
-        id: 1,
-        title: "AWS Certified Developer – Associate",
-        issuer: "Amazon Web Services",
-        date: "March 2023",
-        credentialId: "AWS-DEV-2023",
-    },
-    {
-        id: 2,
-        title: "Meta Front-End Developer",
-        issuer: "Meta (Coursera)",
-        date: "November 2022",
-        credentialId: "META-FE-2022",
-    },
-    {
-        id: 3,
-        title: "JavaScript Algorithms & Data Structures",
-        issuer: "freeCodeCamp",
-        date: "July 2022",
-        credentialId: "FCC-JS-2022",
-    },
-    {
-        id: 4,
-        title: "React – The Complete Guide",
-        issuer: "Udemy / Maximilian Schwarzmüller",
-        date: "January 2022",
-        credentialId: "UDEMY-REACT-2022",
-    },
 ];
 
 export default WorkExperienceData;
