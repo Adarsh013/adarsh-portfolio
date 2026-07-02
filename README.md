@@ -1,22 +1,7 @@
-<h1 align="center">
-  <br>
-  <a href="https://your-portfolio-link.com">
-    <img src="./src/assets/myNameLogo1.png" alt="Adarsh Gupta" width="200">
-  </a>
-  <br>
-  Adarsh Gupta Portfolio
-  <br>
-</h1>
 
 <h4 align="center">
   A personal portfolio website showcasing my skills, projects, certifications, and experience as a Full Stack Developer.
 </h4>
-
-<br>
-
-<p align="center">
-  <img src="./src/assets/screenshot.png" alt="Portfolio Screenshot">
-</p>
 
 ---
 
