@@ -1,70 +1,114 @@
 <h1 align="center">
   <br>
-  <a href="http://gregsithole.com">
-  <img src="./src/assets/light-logo.svg" alt="GregSithole" width="200"></a>
+  <a href="https://your-portfolio-link.com">
+    <img src="./src/assets/myNameLogo1.png" alt="Adarsh Gupta" width="200">
+  </a>
   <br>
-  Greg Sithole's Personal Website
+  Adarsh Gupta Portfolio
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="http://gregsithole.com" target="_blank">Greg Sithole</a>.</h4>
+<h4 align="center">
+  A personal portfolio website showcasing my skills, projects, certifications, and experience as a Full Stack Developer.
+</h4>
 
 <br>
 
-![screenshot](https://github.com/GregSithole/gregsithole-react-portfolio/raw/master/src/assets/screenshot.png)
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/). From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/GregSithole/gregsithole-react-portfolio
-
-# Go into the repository
-$ cd gregsithole-react-portfolio
-
-# Install dependencies
-$ yarn install
-
-# Run the app
-$ yarn start
-```
-
-<!-- ## Credits
-
-This website uses the following open source packages:
-
-- [Node.js](https://nodejs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support -->
-
-<!-- <a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> -->
-
-<!-- <p>Or</p>
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a> -->
-
-<!-- ## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
-## License
-
-MIT
+<p align="center">
+  <img src="./src/assets/screenshot.png" alt="Portfolio Screenshot">
+</p>
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant) -->
+## 🚀 About Me
 
+Hi, I'm **Adarsh Gupta**, a final-year **MCA student at Birla Institute of Technology, Mesra** and a passionate **Full Stack Developer**.
+
+I enjoy building scalable web applications and solving real-world problems using modern technologies.
+
+### Tech Stack
+
+- Frontend: React, JavaScript, HTML, CSS, Bootstrap
+- Backend: Java, Spring Boot
+- Database: MySQL, PostgreSQL
+- Tools: Git, GitHub, Maven, Postman
+- Other: REST APIs, AI Integration, DSA
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Dark / Light Theme
+- About Me Section
+- Skills Showcase
+- Experience Timeline
+- Certifications Carousel
+- Project Portfolio
+- Contact Form with EmailJS
+- Social Media Integration
+
+---
+
+## 🛠️ Installation
+
+To clone and run this application, you'll need:
+
+- Git
+- Node.js
 
 Avatar Generated -> https://getavataaars.com/?utm_source=chatgpt.com
+
+From your command line:
+
+```bash
+# Clone repository
+git clone https://github.com/Adarsh013/your-repository-name.git
+
+# Go into repository
+cd your-repository-name
+
+# Install dependencies 
+$ yarn install 
+
+# Run the app 
+$ yarn start
+
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+├── assets
+├── components
+│   ├── about
+│   ├── contact
+│   ├── home
+│   ├── portfolio
+│   ├── resume
+│   ├── sidebar
+│   └── skills
+├── App.js
+└── index.js
+```
+
+---
+
+## 📧 Contact
+
+Email: aadarshgupta7488@gmail.com
+
+LinkedIn:
+https://www.linkedin.com/in/adarsh-gupta0/
+
+GitHub:
+https://github.com/Adarsh013
+
+LeetCode:
+https://leetcode.com/u/adarsh_020/
+
+Made with ❤️ by Adarsh Gupta
+

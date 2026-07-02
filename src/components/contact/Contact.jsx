@@ -54,9 +54,6 @@ const Contact = (props) => {
             <div className="contact__container grid">
                 <div className="contact__info">
                     <h3 className="contact__title">Let's talk about everything!</h3>
-                    <p className="contact__details">
-                        Don't like forms? Send me an email. 👋
-                    </p>
                 </div>
 
                 <form onSubmit={submitHandler} className="contact__form">

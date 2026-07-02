@@ -7,33 +7,34 @@ const Menu = [
 	{
 		id: 1,
 		image: Work1,
-		title: "React Native Jobs App",
+		title: "Coming soon...",
 		category: ["Frontend", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
+		repositoryUrl: "#"
 	},
 	{
 		id: 2,
 		image: Work2,
-		title: "Cryptoverse",
+		title: "Coming soon...",
 		category: ["Frontend", "React"],
-		url: "https://cryptoverse.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/crypto-app"
+		url: "#",
+		repositoryUrl: "#"
 	},
 	{
 		id: 3,
 		image: Work3,
-		title: "Travel Advisor",
-		category: ["Frontend"],
-		url: "https://travel.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/travel-advisor"
+		// title: "Travel Advisor",
+		title: "Coming soon...",
+		category: ["Frontend",  "React"],
+		url: "#",
+		repositoryUrl: "#"
 	},
 	{
 		id: 4,
 		image: Work4,
-		title: "Wallhaven CLI",
-		category: ["Backend"],
-		url: "https://www.npmjs.com/package/wallhaven-cli",
-		repositoryUrl: "https://github.com/GregSithole/wallhaven-cli"
+		title: "Coming soon...",
+		category: ["Frontend",  "React"],
+		url: "#",
+		repositoryUrl: "#"
 	}
 ];
 
