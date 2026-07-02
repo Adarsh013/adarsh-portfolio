@@ -1,24 +1,15 @@
-import React from 'react'
-import { RiFireLine, RiCupLine, RiGroupLine, RiTrophyLine } from 'react-icons/ri';
+import React from 'react';
+import { RiCupLine, RiGroupLine, RiTrophyLine } from 'react-icons/ri';
 
 const AboutBox = () => {
     return (
         <div className="about__boxes grid">
-            {/* <div className="about__box">
-                <RiFireLine className='about__icon' />
-
-                <div>
-                    <h3 className="about__title">6</h3>
-                    <span className="about__subtitle">Years of Experience</span>
-                </div>
-            </div> */}
-
             <div className="about__box">
                 <RiCupLine className='about__icon' />
 
                 <div>
                     <h3 className="about__title">31</h3>
-                    <span className="about__subtitle">Github Repositories</span>
+                    <span className="about__subtitle">GitHub Repositories</span>
                 </div>
             </div>
 
@@ -35,12 +26,12 @@ const AboutBox = () => {
                 <RiTrophyLine className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">100</h3>
-                    <span className="about__subtitle">Code Quality</span>
+                    <h3 className="about__title">300+</h3>
+                    <span className="about__subtitle">DSA Problems Solved</span>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AboutBox
+export default AboutBox;
