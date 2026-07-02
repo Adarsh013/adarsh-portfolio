@@ -9,7 +9,6 @@ import {
     RiUser3Line,
     RiBriefcase2Line,
     RiStackLine,
-    RiDraftLine,
     RiChat3Line,
     RiFileList3Line,
     RiMoonLine,

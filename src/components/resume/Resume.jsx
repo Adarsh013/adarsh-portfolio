@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./Resume.css";
 import CertificationsData from "./Certification";
 import { WorkExperienceData } from "./WorkExperience";
@@ -7,31 +7,39 @@ const CertificationsCarousel = () => {
     const [current, setCurrent] = useState(0);
     const [animating, setAnimating] = useState(false);
     const [direction, setDirection] = useState("next");
+
     const total = CertificationsData.length;
-    const timeoutRef = useRef(null);
 
-    const goTo = (index, dir) => {
-        if (animating) return;
+    const goTo = useCallback(
+        (index, dir) => {
+            if (animating) return;
 
-        setDirection(dir);
-        setAnimating(true);
+            setDirection(dir);
+            setAnimating(true);
 
-        setTimeout(() => {
-            setCurrent(index);
-            setAnimating(false);
-        }, 400);
+            setTimeout(() => {
+                setCurrent(index);
+                setAnimating(false);
+            }, 400);
+        },
+        [animating]
+    );
+
+    const handleNext = useCallback(() => {
+        goTo((current + 1) % total, "next");
+    }, [current, total, goTo]);
+
+    const handlePrev = () => {
+        goTo((current - 1 + total) % total, "prev");
     };
 
-    const handleNext = () => goTo((current + 1) % total, "next");
-    const handlePrev = () => goTo((current - 1 + total) % total, "prev");
-
     useEffect(() => {
-    const timer = setTimeout(() => {
-        setCurrent((prev) => (prev + 1) % total);
-    }, 4000);
+        const timer = setTimeout(() => {
+            handleNext();
+        }, 4000);
 
-    return () => clearTimeout(timer);
-}, [current, total]);
+        return () => clearTimeout(timer);
+    }, [handleNext]);
 
     return (
         <div className="cert__carousel">
@@ -91,7 +99,6 @@ const Resume = () => {
             <h2 className="section__title">Experience</h2>
 
             <div className="resume__container">
-                {/* Top Tabs */}
                 <div className="resume__top-tabs">
                     <button
                         className={`resume__top-btn${
@@ -116,7 +123,6 @@ const Resume = () => {
                     </button>
                 </div>
 
-                {/* Experience Panel */}
                 <div
                     className={`resume__panel${
                         tabIndex === 0 ? " resume__panel--active" : ""
@@ -141,7 +147,6 @@ const Resume = () => {
                     ))}
                 </div>
 
-                {/* Certifications Panel */}
                 <div
                     className={`resume__panel${
                         tabIndex === 1 ? " resume__panel--active" : ""
