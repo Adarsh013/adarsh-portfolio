@@ -59,23 +59,6 @@ To clone and run this application, you'll need:
 
 Avatar Generated -> https://getavataaars.com/?utm_source=chatgpt.com
 
-From your command line:
-
-```bash
-# Clone repository
-git clone https://github.com/Adarsh013/your-repository-name.git
-
-# Go into repository
-cd your-repository-name
-
-# Install dependencies 
-$ yarn install 
-
-# Run the app 
-$ yarn start
-
-```
-
 ---
 
 ## 📂 Project Structure
