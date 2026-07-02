@@ -26,10 +26,12 @@ const CertificationsCarousel = () => {
     const handlePrev = () => goTo((current - 1 + total) % total, "prev");
 
     useEffect(() => {
-        timeoutRef.current = setTimeout(handleNext, 4000);
+    const timer = setTimeout(() => {
+        setCurrent((prev) => (prev + 1) % total);
+    }, 4000);
 
-        return () => clearTimeout(timeoutRef.current);
-    }, [current]);
+    return () => clearTimeout(timer);
+}, [current, total]);
 
     return (
         <div className="cert__carousel">
