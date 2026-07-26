@@ -27,6 +27,7 @@ const Menu = [
 		image: Work3,
 		title: "Question Paper Generator",
 		category: ["Frontend", "React", "Backend"],
+		url: "https://question-paper-generator-jade-seven.vercel.app/",
 		repositoryUrl: "https://github.com/Adarsh013/question-paper-generator"
 	},
 	{

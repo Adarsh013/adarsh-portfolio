@@ -1,20 +1,61 @@
-import React from 'react';
-import './Skills.css';
+import React from "react";
+import "./Skills.css";
+
+import { SiHuggingface } from "react-icons/si";
+import { BsRobot, BsDatabaseGear } from "react-icons/bs";
 
 const skillsData = [
-    { id: 1, devicon: 'devicon-java-plain colored', name: 'Java' },
-    { id: 2, devicon: 'devicon-python-plain colored', name: 'Python' },
-    { id: 3, devicon: 'devicon-mysql-plain colored', name: 'MySQL' },
-    { id: 4, devicon: 'devicon-postgresql-plain colored', name: 'PostgreSQL' },
-    { id: 5, devicon: 'devicon-amazonwebservices-plain-wordmark colored', name: 'AWS' },
-    { id: 6, devicon: 'devicon-html5-plain colored', name: 'HTML5' },
-    { id: 7, devicon: 'devicon-css3-plain colored', name: 'CSS3' },
-    { id: 8, devicon: 'devicon-bootstrap-plain colored', name: 'Bootstrap' },
-    { id: 9, devicon: 'devicon-javascript-plain colored', name: 'JavaScript' },
-    { id: 10, devicon: 'devicon-react-original colored', name: 'React' },
-    { id: 11, devicon: 'devicon-spring-plain colored', name: 'Spring Boot' },
-    { id: 12, devicon: 'devicon-mysql-plain colored', name: 'DBMS' },
-    { id: 13, devicon: 'devicon-git-plain colored', name: 'DSA & Problem Solving' },
+    // Languages
+    { id: 1, type: "devicon", icon: "devicon-java-plain colored", name: "Java" },
+    { id: 2, type: "devicon", icon: "devicon-python-plain colored", name: "Python" },
+    { id: 3, type: "devicon", icon: "devicon-javascript-plain colored", name: "JavaScript" },
+
+    // Frameworks
+    { id: 4, type: "devicon", icon: "devicon-spring-plain colored", name: "Spring Boot" },
+    { id: 5, type: "devicon", icon: "devicon-react-original colored", name: "React" },
+
+    // AI
+    {
+        id: 6,
+        type: "reacticon",
+        icon: <BsRobot color="#8B5CF6" size={42} />,
+        name: "Generative AI",
+    },
+    {
+        id: 7,
+        type: "reacticon",
+        icon: <BsRobot color="#10B981" size={42} />,
+        name: "LangChain",
+    },
+    {
+        id: 8,
+        type: "reacticon",
+        icon: <BsDatabaseGear color="#2563EB" size={42} />,
+        name: "RAG",
+    },
+    {
+        id: 9,
+        type: "reacticon",
+        icon: <SiHuggingface color="#FFD21E" size={42} />,
+        name: "Hugging Face",
+    },
+
+    // Databases
+    { id: 10, type: "devicon", icon: "devicon-mysql-plain colored", name: "MySQL" },
+    { id: 11, type: "devicon", icon: "devicon-postgresql-plain colored", name: "PostgreSQL" },
+    { id: 12, type: "devicon", icon: "devicon-mysql-plain colored", name: "DBMS" },
+
+    // Frontend
+    { id: 13, type: "devicon", icon: "devicon-html5-plain colored", name: "HTML5" },
+    { id: 14, type: "devicon", icon: "devicon-css3-plain colored", name: "CSS3" },
+    { id: 15, type: "devicon", icon: "devicon-bootstrap-plain colored", name: "Bootstrap" },
+
+    // Tools
+    { id: 16, type: "devicon", icon: "devicon-git-plain colored", name: "Git" },
+    { id: 17, type: "devicon", icon: "devicon-amazonwebservices-plain-wordmark colored", name: "AWS" },
+
+    // CS Fundamentals
+    { id: 18, type: "devicon", icon: "devicon-java-plain colored", name: "DSA & Problem Solving" },
 ];
 
 const Skills = () => {
@@ -23,11 +64,16 @@ const Skills = () => {
             <h2 className="section__title">Technical Arsenal</h2>
 
             <div className="skills__container grid">
-                {skillsData.map(({ id, devicon, name }) => (
+                {skillsData.map(({ id, type, icon, name }) => (
                     <div className="skills__card" key={id}>
                         <div className="skills__icon-wrapper">
-                            <i className={devicon}></i>
+                            {type === "devicon" ? (
+                                <i className={icon}></i>
+                            ) : (
+                                icon
+                            )}
                         </div>
+
                         <span className="skills__name">{name}</span>
                     </div>
                 ))}
