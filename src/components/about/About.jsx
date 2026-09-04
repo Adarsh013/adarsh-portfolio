@@ -19,21 +19,26 @@ const About = () => {
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">
-Hello World! I'm Adarsh Gupta 👋
-<br></br>
-<br></br>
-I'm a final-year MCA student at Birla Institute of Technology (BIT), Mesra, 
-passionate about building scalable and user-friendly web applications.
-
-My primary tech stack includes <b>React, Spring Boot, Java, JavaScript, MySQL, PostgreSQL,</b> and  <b> REST APIs.</b>
-<br></br><br></br>
- I also enjoy exploring AI-powered applications, cloud technologies, and modern backend development.
-
-I love solving real-world problems through code, learning new technologies, 
-and collaborating with others to create impactful solutions. I'm currently seeking opportunities 
-where I can grow as a Software Developer and contribute to meaningful projects.
-                        </p>
+                       <p className="about__description">
+  Hello World! I'm Adarsh Gupta 👋
+  <br></br>
+  <br></br>
+  I'm an MCA student at Birla Institute of Technology (BIT), Mesra, passionate
+  about building scalable and user-friendly software applications.
+  <br></br>
+  My primary tech stack includes <b>Java, Spring Boot, React.js, JavaScript,
+  Python, MySQL, PostgreSQL,</b> and <b>REST APIs.</b>
+  <br></br><br></br>
+  I also enjoy building <b>Generative AI and RAG applications</b> using
+  technologies like LangGraph, Qdrant, MongoDB, and LLM APIs.
+  <br></br>
+  I love solving real-world problems through code, learning new technologies,
+  and building practical applications. I've also solved <b>350+ DSA problems</b>
+  and continue to improve my problem-solving and development skills.
+  <br></br><br></br>
+  I'm currently looking for opportunities where I can grow as a Software
+  Developer, contribute my skills, and work on meaningful projects.
+</p>
                         {/* <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
                             <li>TypeScript</li>

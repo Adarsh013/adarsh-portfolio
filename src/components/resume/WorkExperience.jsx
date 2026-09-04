@@ -5,7 +5,7 @@ export const WorkExperienceData = [
         company: "Bharat Intern",
         yearsActive: "September 2023 - October 2023",
         information: [
-            "Collaborated with a dynamic team at Bharat Intern to enhance my skills in web development. Applied programming languages such as HTML, CSS, and JavaScript to deliver responsive and user-friendly websites. Learned and adapted to industry best practices in a virtual internship setting, fostering both individual and collaborative growth."
+            "Contributed to the development of responsive web applications using HTML, CSS, JavaScript, and React, translating UI requirements into functional, cross-browser-compatible interfaces. Built reusable components and interactive features to improve usability and layout consistency across devices. Collaborated in a remote team environment, applying best practices in code organization and version control (Git), while gaining hands-on exposure to modern frontend development workflows."
         ],
     },
    

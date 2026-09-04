@@ -28,6 +28,12 @@ const skillsData = [
         name: "LangChain",
     },
     {
+        id: 7,
+        type: "reacticon",
+        icon: <BsRobot color="#39bee3" size={42} />,
+        name: "LangGraph",
+    },
+    {
         id: 8,
         type: "reacticon",
         icon: <BsDatabaseGear color="#2563EB" size={42} />,
