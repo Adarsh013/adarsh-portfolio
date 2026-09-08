@@ -26,7 +26,7 @@ const AboutBox = () => {
                 <RiTrophyLine className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">300+</h3>
+                    <h3 className="about__title">350+</h3>
                     <span className="about__subtitle">DSA Problems Solved</span>
                 </div>
             </div>
