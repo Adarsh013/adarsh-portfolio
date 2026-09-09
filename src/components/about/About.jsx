@@ -33,8 +33,8 @@ const About = () => {
   technologies like LangGraph, Qdrant, MongoDB, and LLM APIs.
   <br></br>
   I love solving real-world problems through code, learning new technologies,
-  and building practical applications. I've also solved <b>350+ DSA problems</b>
-  and continue to improve my problem-solving and development skills.
+  and building practical applications. I've also solved <b>350+ DSA problems </b>
+and continue to improve my problem-solving and development skills.
   <br></br><br></br>
   I'm currently looking for opportunities where I can grow as a Software
   Developer, contribute my skills, and work on meaningful projects.
